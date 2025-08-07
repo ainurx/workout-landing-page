@@ -27,6 +27,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="flex px-48 justify-between h-14 align-middle mb-8 items-center">
+          <h3 className="font-semibold">WORKOUT</h3>
+          <ul className="flex justify-between gap-8">
+            <li>EXERCISES</li>
+            <li>TRAINERS</li>
+            <li>PRICING</li>
+            <li>LOGIN</li>
+          </ul>
+        </nav>
         {children}
       </body>
     </html>
