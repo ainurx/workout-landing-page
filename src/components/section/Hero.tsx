@@ -8,7 +8,9 @@ function Hero() {
     <div className='flex w-full'>
         <div>
             <div className='flex bg-white/10 w-max pl-1 pr-4 py-1 rounded-2xl'>
-                <p className='bg-[#25AB75] px-2 rounded-3xl mr-3'>NEW</p>
+                <div className='bg-[#25AB75] px-2 rounded-3xl mr-3 pt-0.5 items-center'>
+                    <p className='text-sm'>NEW</p>
+                </div>
                 <p>High Intensity workout to burn calories</p>
             </div>
             <h2 className='text-[200px] text-sm/48 whitespace-pre-line font-bold my-4'>
