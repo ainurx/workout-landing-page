@@ -5,7 +5,7 @@ import HeroImage from '../../../public/img/image 1 no bg.png'
 
 function Hero() {
   return (
-    <div className='flex'>
+    <div className='flex w-full'>
         <div>
             <div className='flex bg-white/10 w-max pl-1 pr-4 py-1 rounded-2xl'>
                 <p className='bg-[#25AB75] px-2 rounded-3xl mr-3'>NEW</p>

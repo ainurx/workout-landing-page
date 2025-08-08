@@ -88,14 +88,11 @@ const Programs: React.FC = () => {
                         className={`flex w-full ${video.id !== 5 ? 'border-b border-[#D8D8D8]': ''}  items-center justify-between py-8`}
                     >
                         <p>{video.id}</p>
-                        {/* <div> */}
                             <div className='text-left w-lg'>
                                 <h2 className='text-5xl'>{video.title}</h2>
                                 <p className='text-white/50'>{video.amount} videos</p>
                             </div>
-                        {/* </div> */}
                         <Image src={NextIcon} alt="next"/>
-                        {/* <NextIcon/> */}
                     </div>
                 ))
             }
