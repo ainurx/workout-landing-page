@@ -14,7 +14,7 @@ interface itemInterface {
 const Card: React.FC<itemInterface> = ({item}) => {
     const { title, image, duration, cal } = item
   return (
-    <div className='w-full relative'>
+    <div className='w-full relative cursor-pointer'>
         <Image src={image} className='w-full rounded-t-xl mask-b-from-30% mask-b-to-100%' alt={title}/>
         <div className='-mt-7 px-6'>
             <div className='flex justify-between'>

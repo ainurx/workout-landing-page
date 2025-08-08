@@ -52,7 +52,7 @@ const Exercises: React.FC = () => {
     <div className='-mt-42 w-full'>
         <div className="flex justify-between w-full mb-8">
             <h3 className="text-2xl font-semibold">Popular Exercises</h3>
-            <a className='text-white/50 text-[12px]'>SEE MORE EXERCISES</a>
+            <a className='text-white/50 text-[12px] cursor-pointer'>SEE MORE EXERCISES</a>
         </div>
         <div className='grid grid-cols-3 gap-12 w-full'>
             {

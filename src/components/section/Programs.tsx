@@ -59,21 +59,20 @@ const Programs: React.FC = () => {
             <h1 className='text-9xl whitespace-pre-line font-bold z-1'>
                 Workout {'\n'}Program {'\n'} Made {'\n'} For You
             </h1>
-            <div className='w-full ml-32'>
+            <div className='w-3/4 ml-32 -mt-26 bg-white/10 h-180 absolute right-0 pl-82 pt-36'>
                 <p className='whitespace-pre-line mb-8 text-[25px] text-sm/loose'>
                     Lorem ipsum dolor sit amet, consectetur {'\n'}
                     adipiscing elit, sed do eiusmod tempor {'\n'} 
                     incididunt ut labore et dolore magna {'\n'}
                     aliqua consectetur adipiscing.
                 </p>
-                <button className='w-max px-5 py-3 rounded-md mr-4 bg-[#25AB75] font-semibold'>
+                <button className='cursor-pointer w-max px-5 py-3 rounded-md mr-4 bg-[#25AB75] font-semibold'>
                     Get Started
                 </button>
             </div>
         </div>
         <div>
-            <div className='bg-white/10 -mt-162 w-3/4 h-180 absolute right-0'></div>
-            <Image src={StripImage} alt="strip" className='-mt-34 z-0'/>
+           <Image src={StripImage} alt="strip" className='-mt-34 z-0'/>
         </div>
         <div className='flex'>
             <TrainerCard item={trainers[0]}/>
@@ -85,7 +84,7 @@ const Programs: React.FC = () => {
                 videos.map((video, index) => (
                     <div 
                         key={index} 
-                        className={`flex w-full ${video.id !== 5 ? 'border-b border-[#D8D8D8]': ''}  items-center justify-between py-8`}
+                        className={`flex w-full ${video.id !== 5 ? 'border-b border-[#D8D8D8]': ''}  items-center justify-between py-8 cursor-pointer`}
                     >
                         <p>{video.id}</p>
                             <div className='text-left w-lg'>

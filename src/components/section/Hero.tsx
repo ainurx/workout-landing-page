@@ -19,10 +19,10 @@ function Hero() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do {'\n'}
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <button className='w-max px-5 py-3 rounded-md mr-4 bg-[#25AB75] font-semibold'>
+            <button className='cursor-pointer w-max px-5 py-3 rounded-md mr-4 bg-[#25AB75] font-semibold'>
                 Get Started
             </button>
-            <button className='w-max px-5 py-3 rounded-md bg-white/10 font-semibold'>
+            <button className='cursor-pointer w-max px-5 py-3 rounded-md bg-white/10 font-semibold'>
                 Preview
             </button>
         </div>
