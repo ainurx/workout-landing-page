@@ -15,7 +15,7 @@ const TrainerCard: React.FC<trainerInterface> = ({className, item}) => {
   return (
     <div className={className}>
         <Image src={image} alt={name}/>
-        <div className='p-8'>
+        <div className='p-6'>
           <h6 className='text-2xl'>{name}</h6>
           <p className='text-white/50'>Trainer</p>
         </div>

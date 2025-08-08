@@ -49,10 +49,10 @@ const items = [
 
 const Exercises: React.FC = () => {
   return (
-    <>
-        <div className="flex justify-between w-full">
+    <div className='-mt-42'>
+        <div className="flex justify-between w-full mb-8">
             <h3 className="text-2xl font-semibold">Popular Exercises</h3>
-            <a>SEE MORE EXERCISES</a>
+            <a className='text-white/50 text-[12px]'>SEE MORE EXERCISES</a>
         </div>
         <div className='grid grid-cols-3 gap-12 w-full'>
             {
@@ -61,7 +61,7 @@ const Exercises: React.FC = () => {
                 ))
             }
         </div>
-    </>
+    </div>
   )
 }
 
